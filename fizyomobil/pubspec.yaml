@@ -1,0 +1,43 @@
+name: fizyomobil
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.0
+  babylonjs_viewer: ^1.2.0
+  mysql1: ^0.20.0
+  video_player: ^2.8.6
+  flick_video_player: ^0.8.0
+  youtube_player_flutter: ^9.0.1
+  flutter_pdfview: ^1.2.7
+  advance_pdf_viewer: ^2.0.0
+  webview_flutter: ^2.8.0
+  open_file: ^3.2.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.0
+  syncfusion_flutter_pdfviewer: ^24.2.8
+  
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  image: "assets/images/splash2.gif"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/TDmodels/
+    - assets/model_images/
+    - assets/pdfFiles/
